@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+    <html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title> Signature Assignment Page 3 </title>
+    </head>
+    <body> 
+        <form>
+            <h2> Book Recommendations </h2>
+            <p>Please fill out the form with your recommendations' information</p>
+            <table>
+                <tr>
+                    <td> Book Name</td>
+                    <td><input type="text" name="book_name"></td>
+                </tr>
+                    <td> Author First Name </td>
+                    <td><input type="text" name="first_name"></td>
+                </tr>
+                    <td> Author Last Name </td>
+                    <td><input type="text" name="last_name"></td>
+                </tr>
+            </table>
+    
+            <h2> Your Rating </h2>
+            <p> Please select what you rated this book! </p>
+            <select name="Rating">
+                <option value="1star">1 Star</option>
+                <option value="2star">2 Stars</option>
+                <option value="3star">3 Stars</option>
+                <option value="4star">4 Stars</option>
+                <option value="5star">5 Stars</option>
+            </select>
+        </br>
+            <p>Please give a breif reason:</p>
+            <input type="text" name="reason">
+            
+    
+            <h2>Genre</h2>
+            <p>Please select the Genre!</p>
+            <input type="radio" name="book_genre" value="fiction"><label for="fiction">Fiction</label>
+            <input type="radio" name="book_genre" value="nonfiction"><label for="nonfiction">Nonfiction</label>
+            <input type="radio" name="book_genre" value="scary"><label for="scary">Crime/Mystery/Thriller/Horror</label>
+            <input type="radio" name="book_genre" value="historical"><label for="historical">Historical Fiction/Fantesy</label>
+            <input type="radio" name="book_genre" value="romance"><label for="romance">Romance</label>
+            <input type="radio" name="book_genre" value="fantesy"><label for="fantesy">Fantesy</label>
+
+            <!-- check boxes to select multiple-->
+            <h2>Toppings</h2>
+            <input type="checkbox" value="pepperoni"><lable>Pepperoni</lable>
+            <br/>
+            <input type="checkbox" value="mushrooms"><lable>Mushrooms</lable>
+            <br/>
+            <input type="checkbox" value="olives"><lable>Olives</lable>
+            <br/>
+            <input type="checkbox" value="ham"><lable>Ham</lable>
+            <br/>
+            <input type="checkbox" value="bacon"><lable>Bacon</lable>
+            <br/>
+            <input type="checkbox" value="sausage"><lable>Sausage</lable>
+            <br/>
+          
+    <!-- radio buttons like type-->
+            <h2>Delivery</h2> 
+            <input type="radio" name="delivery_type" value="pick up"><lable for="pick_up"
+            <input type="radio" name="delivery_type" value="delivery"><lable for="delivery"
+            <input type="radio" name="delivery_type" value="dine in"><lable for="dine_in"
+    
+            <h2>Comments for Delivery</h2>
+            <textarea rows="4" cols="40">Enter driving directions here</textarea>
+            <br/>
+            
+            <button type="submit">Submit Order</button>
+            <br/>
+            <button type="reset">Reset Order</button>
+    
+        </form>
+    </body>
