@@ -1,12 +1,12 @@
 * {
+    cursor: ;
     margin: 5 ;
     justify-content: space-evenly;
 }
 
-
 .nav-links {
     margin: 0;
-    background-color: #ec8390;
+    background-color: #545677;
     width: 100%;
     padding: 0;
     height: 50px;
@@ -15,17 +15,17 @@
 }
 .nav-links a {
     text-decoration: none;
-    color: aliceblue;
+    color: #f7f4ea;
     padding: 10px;
     margin:0;
 }
 .nav-links a.active{
-    color: azure;
-    background-color: #679d85fc;
+    color: #ded9e2;
+    background-color: #c0b9dd;
 }
 .nav-links a:hover:not(.active){
-    background-color: rgba(85, 35, 91, 0.435);
-    color: aliceblue;
+    background: color #c0b9dd);
+    color:#f7f4ea;
 }
 .nav-links a:visted{
     color: white;
