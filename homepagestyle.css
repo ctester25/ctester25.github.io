@@ -1,5 +1,4 @@
 * {
-    cursor: ;
     margin: 5 ;
     justify-content: space-evenly;
 }
@@ -24,8 +23,8 @@
     background-color: #c0b9dd;
 }
 .nav-links a:hover:not(.active){
-    background: color #c0b9dd);
-    color:#f7f4ea;
+    background: color #c0b9dd;
+    color: #F7F4ea;
 }
 .nav-links a:visted{
     color: white;
@@ -88,8 +87,8 @@ text-decoration: none;
 
 }
 #goodreads{
-    width: 32px;
-    height: 32px;
+    width: 30px;
+    height: 30px;
 }
 
 
