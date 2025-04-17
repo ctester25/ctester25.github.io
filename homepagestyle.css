@@ -16,11 +16,13 @@
     text-decoration: none;
     color: #f7f4ea;
     padding: 10px;
-    margin:0;
+    margin:10px;
 }
+
 .nav-links a.active{
     color: #ded9e2;
     background-color: #c0b9dd;
+    display: flex;
 }
 .nav-links a:hover:not(.active){
     background: color #c0b9dd;
@@ -29,35 +31,22 @@
 .nav-links a:visted{
     color: white;
 }
-#main{
-    margin-left: 0;
-    padding: 0;
-    background-image: url(../Media/pictures/flower-background-desktop-wallpaper-cute-vector_53876-136877.avif);
-    width: 100%;
-    height: 100%;
-}
 #hero{
     height: 100vh;
     display: flex;
     align-items:center;
     text-align: center;
-    color: white;
+    color: black;
     max-width: 800px;
 }
-#hero1{
-    padding-left: 180px;
-    font-size: 3rem;
-    margin-bottom: 10px;
-}
 .menu-toggle{
-    display: none;
+    display: block;
     font-size: 2rem;
     cursor:pointer;
 }
 footer{
     margin: 0;
-    background-color: #ec8390;
-    text-shadow: 2px 2px 5px #000000;
+    background-color: #545677;
     text-decoration: none;
     font-size: 25px;
     width: 100%;
@@ -68,7 +57,7 @@ footer{
  
 }
 #bhours{
-    color:#b8bfb7 ;
+    color:#F7F4ea ;
     
 }
 #links a {
@@ -102,21 +91,12 @@ p{
     #leftsidebar{
         width: 200px;
         float: left;
-        background-color: #52796F;
+        background-color: #c0b9dd;
         height: 100%;
         height: 100vh;
     }
 }
-
-    .nav-links a.active{
-        display: flex;
-    }
-    .nav-links a{
-        margin: 10px 0;
-    }
-    .menu-toggle{
-        display: block;
-    }
+    
     
    
     
