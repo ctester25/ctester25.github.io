@@ -2,16 +2,6 @@
     margin: 5 ;
     justify-content: space-evenly;
 }
-* {
-    margin: 0 ;
-    justify-content: space-evenly;
-}
-
-body{
-    margin:0;
-    background-image: url(../Media/pictures/background.jpg);
-}
-
 
 
 .nav-links {
@@ -79,29 +69,25 @@ footer{
  
 }
 #bhours{
-    color:#90ec83 ;
+    color:#b8bfb7 ;
     
 }
 #links a {
 text-decoration: none;
 }
-#boatImg{
-    width: 100%;
-    height: 500px;
-}
 
 
-#insta{
+#spotify{
     width: 30px;
     height: 30px;
 
 }
-#facebook{
+#bn{
     width: 30px;
     height: 30px;
 
 }
-#tiktok{
+#goodreads{
     width: 32px;
     height: 32px;
 }
@@ -111,12 +97,6 @@ p{
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     font-weight: 200;
     font-size: medium;
-}
-
-@media screen and (max-width:768px){
-    body{
-         background-color: #c0e9d4;
-    } 
 }
 
 @media screen and (min-width:1024px){
