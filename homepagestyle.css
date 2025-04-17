@@ -1,6 +1,7 @@
 * {
     margin: 5 ;
     justify-content: space-evenly;
+    color: #F7F4ea;
 }
 
 .nav-links {
@@ -31,6 +32,11 @@
 .nav-links a:visted{
     color: white;
 }
+.menu-toggle{
+    display: block;
+    font-size: 2rem;
+    cursor:pointer;
+}
 #hero{
     height: 100vh;
     display: flex;
@@ -38,11 +44,6 @@
     text-align: center;
     color: black;
     max-width: 800px;
-}
-.menu-toggle{
-    display: block;
-    font-size: 2rem;
-    cursor:pointer;
 }
 footer{
     margin: 0;
@@ -63,7 +64,6 @@ footer{
 #links a {
 text-decoration: none;
 }
-
 
 #spotify{
     width: 30px;
