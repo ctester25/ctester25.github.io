@@ -1,0 +1,167 @@
+* {
+    margin: 0 ;
+    justify-content: space-evenly;
+}
+
+body{
+    margin:0;
+    background-color:#ec8390;
+}
+
+header{
+    margin:0;
+    background-color: rgb(150, 220, 249);
+    width: 100%;
+    padding: 0;
+    height: 50px; !important;
+}
+
+.nav-links {
+    margin: 0;
+    background-color: #ec8390;
+    width: 100%;
+    padding: 0;
+    height: 50px;
+    display: flex;
+    justify-content: space-evenly;
+}
+.nav-links a {
+    text-decoration: none;
+    color: aliceblue;
+    padding: 10px;
+    margin:0;
+}
+.nav-links a.active{
+    color: azure;
+    background-color: #679d85fc;
+}
+.nav-links a:hover:not(.active){
+    background-color: rgba(85, 35, 91, 0.435);
+    color: aliceblue;
+}
+.nav-links a:visted{
+    color: white;
+}
+#main{
+    margin-left: 0;
+    padding: 0;
+    background-image: url(../Media/pictures/flower-background-desktop-wallpaper-cute-vector_53876-136877.avif);
+    width: 100%;
+    height: 100%;
+}
+#hero{
+    height: 100vh;
+    display: flex;
+    align-items:center;
+    text-align: center;
+    color: white;
+    max-width: 800px;
+}
+#hero1{
+    padding-left: 180px;
+    font-size: 3rem;
+    margin-bottom: 10px;
+}
+.menu-toggle{
+    display: none;
+    font-size: 2rem;
+    cursor:pointer;
+}
+footer{
+    margin: 0;
+    background-color: #ec8390;
+    text-shadow: 2px 2px 5px #000000;
+    text-decoration: none;
+    font-size: 25px;
+    width: 100%;
+    padding: 0;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+ 
+}
+#bhours{
+    color:#90ec83 ;
+    
+}
+#links a {
+text-decoration: none;
+}
+#boatImg{
+    width: 100%;
+    height: 500px;
+}
+
+
+#insta{
+    width: 30px;
+    height: 30px;
+
+}
+#facebook{
+    width: 30px;
+    height: 30px;
+
+}
+#tiktok{
+    width: 32px;
+    height: 32px;
+}
+
+
+p{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-weight: 200;
+    font-size: medium;
+}
+h3{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color: #fff130; 
+    padding-left: 25px 50px 75px 100px;
+    width:30%;
+}
+
+@media screen and (max-width:768px){
+    body{
+         background-color: #c0e9d4;
+    } 
+}
+
+@media screen and (min-width:1024px){
+    #leftsidebar{
+        width: 200px;
+        float: left;
+        background-color: #509197;
+        height: 100%;
+        height: 100vh;
+    }
+}
+#main{
+        margin-left: 200px;{}
+    }
+
+@media screen and (max-width:768px){
+    .nav-links{
+        display: none;
+        flex-direction: column;
+        width: 100%;
+        position: absolute;
+        top: 60px;
+        left: 0;
+        background-color: #56a5ac;
+        text-align: center;
+        padding: 10px 0;
+    }
+}
+    .nav-links a.active{
+        display: flex;
+    }
+    .nav-links a{
+        margin: 10px 0;
+    }
+    .menu-toggle{
+        display: block;
+    }
+    
+   
+    
