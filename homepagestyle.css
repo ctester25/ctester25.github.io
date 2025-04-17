@@ -43,11 +43,7 @@ header{
 .nav-links a:visted{
     color: white;
 }
-.menu-toggle{
-    display: block;
-    font-size: 2rem;
-    cursor:pointer;
-}
+
 #hero{
     height: 100vh;
     display: flex;
