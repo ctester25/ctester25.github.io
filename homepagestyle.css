@@ -35,8 +35,7 @@ nav {
     border-radius: 5px;
 }
 
-.nav-links a:hover,
-.nav-links a.active {
+.nav-links a:hover,.nav-links a.active {
     background: #545677;
 }
 
@@ -62,8 +61,6 @@ nav {
     background: #DED9E2;
     padding: 40px 20px;
     margin: 20px;
-    border-radius: 10px;
-    box-shadow: 0 2px 5px rgba(0,0,0,0.05);
 }
 
 #hero h1 {
@@ -76,8 +73,6 @@ nav {
     background: #ffffff;
     padding: 20px;
     margin: 20px;
-    border-radius: 8px;
-    box-shadow: 0 2px 5px rgba(0,0,0,0.05);
 }
 
 /* Footer */
