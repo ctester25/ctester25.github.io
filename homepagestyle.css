@@ -38,7 +38,8 @@ nav {
 
 .nav-links a:hover,
 .nav-links a.active {
-    background: #52796F;
+    background: #DED9E2;
+    ;
 }
 
 /* Sidebar */
@@ -46,8 +47,6 @@ nav {
     background: #DED9E2;
     float:left;
     border-left: 5px solid #C0B9DD;
-    box-shadow: 0 2px 5px rgba(0,0,0,0.05);
-    border-radius: 8px;
 }
 
 /* Hero Section */
