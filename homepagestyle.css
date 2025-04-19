@@ -35,10 +35,11 @@ nav {
     border-radius: 5px;
 }
 
-.nav-links a:hover,
+.nav-links a:hover{
+    background: #DED9E2
+}
 .nav-links a.active {
-    background: #DED9E2;
-    ;
+    background: #545677;
 }
 
 /* Left Sidebar */
