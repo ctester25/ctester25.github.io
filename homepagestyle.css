@@ -41,16 +41,20 @@ nav {
     ;
 }
 
-/* Sidebar */
+/* Left Sidebar */
 #leftsidebar {
+    width: 220px;
     background: #DED9E2;
-    float:left;
-    margin: 15px;
-    height: auto;
     border-left: 5px solid #C0B9DD;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
 }
-#leftsidebar h1{
-    font-family:'Times New Roman', Times, serif;
+/* Sidebar Headings */
+#leftsidebar h1 {
+    font-family: 'Times New Roman', Times, serif;
+    margin-bottom: 20px;
 }
 
 /* Hero Section */
@@ -118,4 +122,21 @@ footer a:hover {
 
 #links img:hover {
     transform: scale(1.1);
+}
+/* Page Layout Wrapper */
+.page-wrapper {
+    display: flex;
+    min-height: 100vh;
+    flex-direction: row;
+}
+
+/* Ensure footer sticks to bottom */
+body {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
+
+footer {
+    margin-top: auto;
 }
