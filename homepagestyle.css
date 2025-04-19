@@ -50,13 +50,6 @@ nav {
     border-radius: 8px;
 }
 
-#leftsidebar img {
-    max-width: 100%;
-    height: auto;
-    margin-top: 10px;
-    border-radius: 10px;
-}
-
 /* Hero Section */
 #hero {
     text-align: center;
