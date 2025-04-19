@@ -42,7 +42,7 @@ nav {
 
 .nav-links a:hover,
 .nav-links a.active {
-    background: #DED9E2;
+    background: #52796F;
     color: #333;
 }
 
@@ -86,7 +86,7 @@ nav {
 
 #hero h1 {
     font-size: 3rem;
-    color: #545677;
+    color: #52796F;
 }
 
 /* Main Content */
