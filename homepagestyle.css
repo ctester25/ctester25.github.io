@@ -11,6 +11,9 @@ body {
     background: #F7F4EA;
     color: #333;
     line-height: 1.6;
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
 }
 
 /* Header and Navigation */
@@ -33,13 +36,22 @@ nav {
     margin: 0 15px;
     padding: 0.5rem 1rem;
     border-radius: 5px;
+    display: inline-block; /* Ensures background shows */
+    transition: background 0.3s ease;
 }
 
 .nav-links a:hover,
 .nav-links a.active {
     background: #DED9E2;
-    ;
+    color: #333;
 }
+
+/* Page Wrapper for layout */
+.page-wrapper {
+    display: flex;
+    flex: 1;
+}
+
 /* Left Sidebar */
 #leftsidebar {
     width: 220px;
@@ -49,8 +61,9 @@ nav {
     display: flex;
     flex-direction: column;
     justify-content: space-between;
+    min-height: calc(100vh - 80px); /* Adjusts for header height */
 }
-/* Sidebar Headings */
+
 #leftsidebar h1 {
     font-family: 'Times New Roman', Times, serif;
     margin-bottom: 20px;
@@ -58,14 +71,21 @@ nav {
 
 /* Hero Section */
 #hero {
-    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 60vh;
     background: #DED9E2;
+    margin: 20px auto;
+    border-radius: 10px;
     padding: 40px 20px;
-    margin: 20px;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    width: 80%;
+    text-align: center;
 }
 
 #hero h1 {
-    font-size: 2.5rem;
+    font-size: 3rem;
     color: #545677;
 }
 
@@ -73,7 +93,10 @@ nav {
 #main {
     background: #ffffff;
     padding: 20px;
-    margin: 20px;
+    margin: 20px auto;
+    width: 80%;
+    border-radius: 8px;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.05);
 }
 
 /* Footer */
@@ -85,6 +108,7 @@ footer {
     justify-content: space-between;
     flex-wrap: wrap;
     border-top: 5px solid #C0B9DD;
+    margin-top: auto;
 }
 
 footer h3 {
@@ -117,21 +141,4 @@ footer a:hover {
 
 #links img:hover {
     transform: scale(1.1);
-}
-/* Page Layout Wrapper */
-.page-wrapper {
-    display: flex;
-    min-height: 100vh;
-    flex-direction: row;
-}
-
-/* Ensure footer sticks to bottom */
-body {
-    display: flex;
-    flex-direction: column;
-    min-height: 100vh;
-}
-
-footer {
-    margin-top: auto;
 }
