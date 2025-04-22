@@ -1,7 +1,7 @@
 /* Reset basic styles */
 * {
-    margin: 5px;
-    padding: 5px;
+    margin: 5;
+    padding: 5;
     box-sizing: border-box;
 }
 
