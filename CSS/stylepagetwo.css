@@ -155,6 +155,7 @@ tr:nth-child(even) {
 
 #hero h1 {
     font-size: 2.5rem;
+    justify-content: center;
     color: #52796F;
 }
 
