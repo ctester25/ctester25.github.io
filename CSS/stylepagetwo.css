@@ -141,14 +141,9 @@ tr:nth-child(even) {
     background-color: #F7F4EA;
 }
 
-tr:hover {
-    background-color: #DED9E2;
-    transition: background 0.2s ease-in-out;
-}
-
 /* Hero Section for Statistics */
 #hero {
-    background-color: #C0B9DD;
+    background-color: #DED9E2;
     padding: 2rem 1rem;
     margin: 2rem auto;
     width: 90%;
