@@ -96,19 +96,18 @@ footer a {
 footer a:hover {
     color: #C0B9DD;
 }
-
-/* Enhance Page Title */
+/* Page Title Styling */
 h2 {
     font-size: 2rem;
     color: #52796F;
-    margin-top: 2rem;
+    margin: 2rem auto 0.5rem auto;
     text-align: center;
 }
 
 p {
     text-align: center;
-    margin-bottom: 1.5rem;
-    color: #333;
+    margin-bottom: 2rem;
+    font-size: 1.1rem;
 }
 
 /* Table Styling */
@@ -117,17 +116,18 @@ table {
     max-width: 1000px;
     margin: 0 auto 3rem auto;
     border-collapse: collapse;
-    background: #ffffff;
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.05);
-    border-radius: 8px;
+    background-color: #fff;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.05);
+    border-radius: 10px;
     overflow: hidden;
 }
 
 th, td {
     padding: 1rem;
-    border-bottom: 1px solid #ddd;
     text-align: left;
+    border-bottom: 1px solid #ddd;
     font-size: 1rem;
+    color: #333;
 }
 
 th {
@@ -143,19 +143,19 @@ tr:nth-child(even) {
 
 tr:hover {
     background-color: #DED9E2;
+    transition: background 0.2s ease-in-out;
 }
 
-/* Hero section enhancement */
+/* Hero Section for Statistics */
 #hero {
     background-color: #C0B9DD;
-    color: #333;
     padding: 2rem 1rem;
-    text-align: center;
-    border-radius: 10px;
-    margin: 0 auto 2rem auto;
+    margin: 2rem auto;
     width: 90%;
     max-width: 900px;
-    box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+    border-radius: 12px;
+    text-align: center;
+    box-shadow: 0 4px 10px rgba(0,0,0,0.1);
 }
 
 #hero h1 {
@@ -163,36 +163,34 @@ tr:hover {
     color: #52796F;
 }
 
-/* Main content styling */
+/* Main Info Section */
 #main {
     width: 90%;
     max-width: 900px;
-    margin: 0 auto 3rem auto;
-    padding: 1rem;
+    margin: 0 auto 4rem auto;
+    padding: 1.5rem;
     background-color: #ffffff;
-    box-shadow: 0 4px 8px rgba(0,0,0,0.05);
-    border-left: 5px solid #52796F;
-    border-radius: 8px;
+    box-shadow: 0 4px 10px rgba(0,0,0,0.05);
+    border-left: 6px solid #52796F;
+    border-radius: 10px;
 }
 
-#main p {
-    font-size: 1.1rem;
-    color: #333;
-    margin: 0;
-}
-
-/* Responsive Tweaks */
+/* Responsive Design */
 @media (max-width: 768px) {
-    th, td {
-        font-size: 0.9rem;
-        padding: 0.75rem;
-    }
-
     h2 {
         font-size: 1.5rem;
     }
 
+    table, th, td {
+        font-size: 0.9rem;
+        padding: 0.75rem;
+    }
+
     #hero h1 {
         font-size: 2rem;
+    }
+
+    #main p {
+        font-size: 1rem;
     }
 }
