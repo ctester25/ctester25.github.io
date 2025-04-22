@@ -74,11 +74,7 @@ nav {
     display: flex;
     justify-content: center;
     align-items: center;
-    min-height: 60vh;
     background: #DED9E2;
-    margin: 20px auto;
-    border-radius: 10px;
-    padding: 40px 20px;
     box-shadow: 0 2px 5px rgba(0,0,0,0.05);
     width: 100%;
     text-align: center;
@@ -92,10 +88,6 @@ nav {
 /* Main Content */
 #main {
     background: #ffffff;
-    padding: 20px;
-    margin: 20px auto;
-    width: 80%;
-    border-radius: 8px;
     box-shadow: 0 2px 5px rgba(0,0,0,0.05);
 }
 
