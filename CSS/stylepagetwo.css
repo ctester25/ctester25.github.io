@@ -46,34 +46,10 @@ nav {
     color: #333;
 }
 
-/* Page Wrapper for layout */
-.page-wrapper {
-    display: flex;
-    flex: 1;
-}
-
-/* Left Sidebar */
-#leftsidebar {
-    width: 220px;
-    background: #DED9E2;
-    border-left: 5px solid #C0B9DD;
-    padding: 20px;
-    display: flex;
-    flex-direction: column;
-    justify-content: space-between;
-    min-height: calc(100vh - 80px); /* Adjusts for header height */
-}
-
-#leftsidebar h1 {
-    font-family: 'Times New Roman', Times, serif;
-    margin-bottom: 20px;
-}
 
 /* Hero Section */
 #hero {
     display: flex;
-    justify-content: center;
-    align-items: center;
     background: #DED9E2;
     box-shadow: 0 2px 5px rgba(0,0,0,0.05);
     width: 100%;
@@ -124,13 +100,3 @@ footer a:hover {
     color: #C0B9DD;
 }
 
-/* Social / Icon Links */
-#links img {
-    width: 32px;
-    height: 32px;
-    margin: 10px 10px 0 0;
-}
-
-#links img:hover {
-    transform: scale(1.1);
-}
