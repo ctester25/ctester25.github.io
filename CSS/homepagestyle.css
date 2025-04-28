@@ -89,20 +89,16 @@ nav {
     background: #ffffff;
     box-shadow: 0 2px 5px rgba(0,0,0,0.05);
 }
-#PracticalMagic{
-    width: 50px;
-    height: 50px;
-    margin: 10px 10px;
+.book-cover {
+    width: 200px;           
+    height: auto;            
+    margin: 10px;            
+    border-radius: 12px;    
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Subtle shadow */
+    transition: transform 0.3s ease;  /* Smooth hover effect */
 }
-#citizencover{
-    width: 50px;
-    height: 50px;
-    margin: 10px 10px;
-}
-#lilwomencover{
-    width: 50px;
-    height: 50px;
-    margin: 10px 10px;
+.book-cover:hover {
+    transform: scale(1.05);  /* Zoom slightly on hover */
 }
 
 /* Footer */
@@ -147,4 +143,8 @@ footer a:hover {
 
 #links img:hover {
     transform: scale(1.1);
+}
+
+.main-content {
+    width: 100%;
 }
