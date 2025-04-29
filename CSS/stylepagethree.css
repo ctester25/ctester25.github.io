@@ -42,7 +42,7 @@ nav {
     padding: 20px;
     display: flex;
     flex-direction: column;
-    justify-content: space-between;
+    justify-content: right;
     min-height: calc(100vh - 80px); /* Adjusts for header height */
 }
 form h2, form p {
