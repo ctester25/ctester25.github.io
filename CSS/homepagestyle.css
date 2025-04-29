@@ -83,7 +83,9 @@ nav {
     font-size: 3rem;
     color: #52796F;
 }
-
+.main-content{
+    justify-content: center;
+}
 /* Main Content */
 #main {
     justify-content: center;
