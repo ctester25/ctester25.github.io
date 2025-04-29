@@ -1,14 +1,17 @@
-<script>
 // Function 1: Validate Book Name input when form is submitted
 function validateForm(event){
     event.preventDefault(); // prevent form from actually submitting
     let bookName = document.getElementsByName('book_name')[0].value;
+    let messageDiv = document.getElementById('bookNameMessage');
+
     if (bookName.trim() === "") {
-        document.getElementById('message').innerHTML = "❗ Please enter a Book Name.";
+        messageDiv.innerHTML = "Please enter a Book Name.";
     } else {
-        document.getElementById('message').innerHTML = "✅ Thank you for your recommendation!";
+        messageDiv.innerHTML = ""; // Clear the error if input is valid
+        alert("Thank you for your recommendation!");
     }
 }
+
 
 // Function 2: Show a live preview of selected rating
 function showRating() {
@@ -20,9 +23,18 @@ function showRating() {
 function changeBackground() {
     let rating = document.getElementsByName('Rating')[0].value;
     if (rating === "5star") {
-        document.body.style.backgroundColor = "#d4edda"; // light green
+        document.body.style.backgroundColor = "#52796F"; 
     } else {
         document.body.style.backgroundColor = "white"; 
     }
 }
-</script>
+function resetMessages() {
+    // Clear validation or feedback messages
+    document.getElementById('bookNameMessage').innerHTML = "";
+    document.getElementById('ratingPreview').innerHTML = "";
+    document.getElementById('message').innerHTML = "";
+    
+    // Optional: Reset background color
+    document.body.style.backgroundColor = "white";
+}
+

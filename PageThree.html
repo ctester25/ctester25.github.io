@@ -25,6 +25,7 @@
                 <tr>
                     <td> Book Name</td>
                     <td><input type="text" name="book_name"></td>
+                    <td><div id="bookNameMessage" style="color: red; font-size: small;"></div></td>
                 </tr>
                     <td> Author First Name </td>
                     <td><input type="text" name="first_name"></td>
@@ -43,6 +44,8 @@
                 <option value="4star">4 Stars</option>
                 <option value="5star">5 Stars</option>
             </select>
+            <div id="ratingPreview" style="margin-top: 5px; font-style: italic;"></div>
+            
         </br>
             <p>Please give a breif reason:</p>
             <input type="text" name="reason">
@@ -72,12 +75,10 @@
             <h2> Additional Comments</h2>
             <textarea rows="4" cols="40">Add additional comments here!</textarea>
             <br/>
-            <div id="message" style="margin-top: 10px; font-weight: bold;">
-            <div id="ratingPreview" style="margin-top: 10px; font-style: italic;">
-            <button type="reset">Reset</button>
+            <div id="message" style="margin-top: 10px; font-weight: bold;"></div>
+            <div id="ratingPreview" style="margin-top: 10px; font-style: italic;"></div>
+            <button type="reset" onclick="resetMessages();">Reset</button>
             <button type="submit" onclick="validateForm(event);">Submit</button>
-            </div>
-        </div>
         </form>
         <script src="JS/page3functions.js"> </script>
     </body>
