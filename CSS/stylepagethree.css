@@ -33,7 +33,7 @@ nav {
     box-shadow: 0 2px 5px rgba(0,0,0,1);
     width: 100%;
     text-align: center;
-    justify-content: left;
+    justify-content:space-around;
 }
 
 form h2, form p {
