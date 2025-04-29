@@ -36,7 +36,7 @@
     
             <h2> Your Rating </h2>
             <p> Please select what you rated this book! </p>
-            <select name="Rating">
+            <select name="Rating" onchange="showRating(); changeBackground();">
                 <option value="1star">1 Star</option>
                 <option value="2star">2 Stars</option>
                 <option value="3star">3 Stars</option>
@@ -72,8 +72,12 @@
             <h2> Additional Comments</h2>
             <textarea rows="4" cols="40">Add additional comments here!</textarea>
             <br/>
+            <div id="message" style="margin-top: 10px; font-weight: bold;">
+            <div id="ratingPreview" style="margin-top: 10px; font-style: italic;">
             <button type="reset">Reset</button>
-            <button type="submit">Submit</button>
-            
+            <button type="submit" onclick="validateForm(event);">Submit</button>
+            </div>
+        </div>
         </form>
+        <script src="JS/page3functions.js"> </script>
     </body>
