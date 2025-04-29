@@ -3,7 +3,6 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    justify-content: center;
 }
 
 /* Body Styling */
@@ -34,6 +33,17 @@ nav {
     box-shadow: 0 2px 5px rgba(0,0,0,1);
     width: 100%;
     text-align: center;
+    justify-content: left;
+}
+#rightsidebar {
+    width: 220px;
+    background: #DED9E2;
+    border-left: 5px solid #C0B9DD;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    min-height: calc(100vh - 80px); /* Adjusts for header height */
 }
 form h2, form p {
     margin-bottom: 1rem;
