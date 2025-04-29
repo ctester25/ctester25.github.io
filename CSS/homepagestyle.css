@@ -85,6 +85,7 @@ nav {
 }
 .main-content{
     justify-content: center;
+    margin-left: 5;
 }
 /* Main Content */
 #main {
